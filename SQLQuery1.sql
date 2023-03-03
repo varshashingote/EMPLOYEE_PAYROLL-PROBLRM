@@ -9,3 +9,11 @@ Name varchar(300),
 Salary float,
 StartDate date
 )
+
+
+----------insert query ---UC3---------
+insert into Employee_PayRoll values('Varsha',87321,'2013-02-01');
+insert into Employee_PayRoll values('Vasu',56671,'2015-05-01');
+insert into Employee_PayRoll values('Suraj',86781,'2017-02-01');
+insert into Employee_PayRoll values('rani',9981,'2019-02-01');
+insert into Employee_PayRoll values('Varsha',87321,getdate());
