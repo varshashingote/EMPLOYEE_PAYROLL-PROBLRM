@@ -17,3 +17,10 @@ insert into Employee_PayRoll values('Vasu',56671,'2015-05-01');
 insert into Employee_PayRoll values('Suraj',86781,'2017-02-01');
 insert into Employee_PayRoll values('rani',9981,'2019-02-01');
 insert into Employee_PayRoll values('Varsha',87321,getdate());
+
+
+--------select----UC4------------------
+select * from Employee_PayRoll;
+select Name,Id from Employee_PayRoll;
+select *from Employee_PayRoll where Name='varsha';
+select * from Employee_PayRoll where StartDate between '2013-01-01' and getdate();
