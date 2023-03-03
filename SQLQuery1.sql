@@ -22,14 +22,13 @@ insert into Employee_PayRoll values('Varsha',87321,getdate());
 --------select----UC4------------------
 select * from Employee_PayRoll;
 select Name,Id from Employee_PayRoll;
+
+
+
+--------perticular_Empinfo----UC5------------
 select *from Employee_PayRoll where Name='varsha';
 select * from Employee_PayRoll where StartDate between '2013-01-01' and getdate();
 
 
 
 
---------create Column---UC5-----------------------
-alter table Employee_PayRoll add Gender char(1);
-update Employee_PayRoll set Gender='F'
-update Employee_PayRoll set Gender='M'where Name='suraj';
-select * from Employee_PayRoll;
