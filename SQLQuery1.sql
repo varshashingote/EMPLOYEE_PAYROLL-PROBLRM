@@ -35,3 +35,13 @@ select * from Employee_PayRoll where StartDate between '2013-01-01' and getdate(
 --------create Column---UC6-----------------------
 alter table Employee_PayRoll add Gender char(1);
 update Employee_PayRoll set Gender='F'
+
+
+--------SUMFunction-----UC7---------------------
+update Employee_PayRoll set Gender='M'where Name='suraj';
+select * from Employee_PayRoll;
+
+
+
+
+
