@@ -61,3 +61,11 @@ ALTER TABLE Employee_payroll ADD Emp_DEPT varchar(10)not null DEFAULT 'HR';
 INSERT INTO employee_payroll VALUES('Swati','23456','24-aug-2022','F','9833678738','pune',DEFAULT);
 INSERT INTO employee_payroll VALUES('Sanket','34000','23-feb-2019','M','9833678538',DEFAULT,DEFAULT);
 select*from Employee_PayRoll;
+
+
+
+-----------------UC9----------------
+------Extending employee_payroll table-------
+
+ALTER TABLE Employee_payroll ADD Basic_Pay varchar(10), Deduction FLOAT(20), Taxable_Pay FLOAT(20), Income_Tax Float(20), Net_Pay float(20);
+SELECT * FROM EMPLOYEE_PAYROLL;
